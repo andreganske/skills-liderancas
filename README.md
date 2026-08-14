@@ -50,12 +50,16 @@ skills-material-apoio/
         ├── frameworks/       ← Ravi Mehta, Cagan, AI Product Strategy, executive presence, first-90-days
         └── personalities/    ← o "bench": Shreyas Doshi (o QUÊ) e Wes Kao (o COMO)
 
-└── one-on-one/     ← a cadência: o ciclo de 1:1 que conecta perfil e dev-plan
+├── one-on-one/     ← a cadência: o ciclo de 1:1 que conecta perfil e dev-plan
     ├── SKILL.md              ← orquestrador do ciclo (arquivo único vivo por sessão)
     └── references/
         ├── modes/            ← prep, consolidação, atualização de talking points
         ├── templates/        ← nota de 1:1, backlog vivo de talking points
         └── anti-patterns.md  ← o que corrói um 1:1 (e como evitar)
+
+└── guia-prompts/   ← as mesmas ideias em prompts avulsos, sem instalar nada
+    ├── prompts-ia-gestao-de-pessoas.md   ← 12 prompts + o que faz cada um funcionar
+    └── prompts-ia-gestao-de-pessoas.pdf  ← mesmo conteúdo, um prompt por página
 ```
 
 O loop do desenvolvimento de time fecha assim: **perfil acumulativo** (`team-coach`) → **ciclo de 1:1** (`one-on-one`) → **plano de desenvolvimento** (`team-coach`). O 1:1 é onde a consistência vira default.
@@ -67,6 +71,14 @@ O loop do desenvolvimento de time fecha assim: **perfil acumulativo** (`team-coa
 3. **Orquestrador + bench** — o Self Coach é um porta de entrada fina (dono da relação, da disciplina e do roteamento) que despacha para uma de duas personalidades especialistas conforme o problema seja **QUÊ** (estratégia/julgamento) ou **COMO** (comunicação/influência).
 
 ## Como usar isto
+
+### Não usa Claude Code? Comece pelo guia de prompts
+
+[`guia-prompts/`](guia-prompts/prompts-ia-gestao-de-pessoas.md) traz **12 prompts avulsos** que colam em qualquer ferramenta de conversa com IA — ChatGPT, Copilot, Claude, Gemini. Nada para instalar, nada para configurar: você copia o bloco, troca o que está entre colchetes e cola o seu material. São as mesmas ideias das skills, sem a parte que exige setup.
+
+Serve para experimentar antes de decidir se vale montar a skill. O que você perde nessa versão é justamente o que a skill acrescenta: o perfil que acumula, o estado que sobrevive entre conversas, os guardrails. O que você ganha é começar hoje. Tem também em [PDF](guia-prompts/prompts-ia-gestao-de-pessoas.pdf), um prompt por página, para imprimir ou repassar a quem nunca usou IA.
+
+### Adaptando as skills
 
 São skills do **Claude Code** (formato de skill: um `SKILL.md` com frontmatter + arquivos de referência carregados sob demanda). Para adaptar à sua realidade:
 
@@ -89,3 +101,7 @@ São skills do **Claude Code** (formato de skill: um `SKILL.md` com frontmatter 
 - [`team-coach/`](team-coach/SKILL.md) — desenvolve quem você lidera
 - [`self-coach/`](self-coach/SKILL.md) — desenvolve a própria liderança
 - [`one-on-one/`](one-on-one/SKILL.md) — a cadência de 1:1 que conecta perfil e plano de desenvolvimento
+
+## E o atalho, se você está começando
+
+- [`guia-prompts/`](guia-prompts/prompts-ia-gestao-de-pessoas.md) — 12 prompts avulsos, sem setup, para qualquer ferramenta de IA ([PDF](guia-prompts/prompts-ia-gestao-de-pessoas.pdf))
